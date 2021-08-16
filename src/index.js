@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
+import HookTest from './HookTest'
 
 function Square(props) {
   return (
@@ -135,7 +136,7 @@ class Game extends React.Component {
 // ========================================
 
 ReactDOM.render(
-  <Game />,
+  <HookTest />,
   document.getElementById('root')
 );
 
